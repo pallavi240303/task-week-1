@@ -36,7 +36,7 @@ body{
     display: none;
 }
 .hero-section{
-    background-image: url("/onboarding-1/assets/images/Rectangle 1.png");
+    background-image: url("./assets/images/Rectangle 1.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
