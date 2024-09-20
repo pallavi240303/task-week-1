@@ -111,7 +111,7 @@ h6{
     font-family: var(--contentFont);
     color: var(--grey);
     margin:4.8rem 2.1rem 8.3rem 2.1rem;
-    padding: 0px;
+    padding: 0rem;
     text-align: center;
     line-height: 2.6rem;
 }
@@ -127,9 +127,9 @@ h6{
     gap: 2.6rem;
 }
 h4 {
-    font-size: var(--font-smaller); 
+    font-size: 2.6rem; 
     font-weight: 400;
-    line-height: 1.5rem; 
+    line-height: 1.5; 
     padding-top: 0.5rem;
     color: var(--purple);
     margin: 0;
@@ -227,19 +227,19 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: var(--pink);
-    color: white;
+    color: var(--bg-col);
     padding-top:121px ;
     padding-bottom: 121px;
 }
 .mission button{
     margin-top: 65px;
     padding: 16px 47px;
-    color: white;
+    color: var(--bg-col);
     font-size: 1.6em;
     font-weight: 400;
     line-height: 24px;
     background-color: transparent;
-    border: 2px solid white;
+    border: 0.2rem solid var(--bg-col);
     border-radius: 4px;
 }
 .mission h6{
@@ -252,9 +252,6 @@ h2{
     flex-direction: column;
     text-align: center;
 }
-
-
-
 .figureCard {
     flex: 0 0 auto;
     text-align: left;
@@ -262,46 +259,46 @@ h2{
     height: 38rem;
     box-shadow: 0px 6.64px 9.96px 0px #655A5A40;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: var(--bg-col);
 }
 .figureCard p{
-    width: 270px;
-    height:371px ;
+    width: 27rem;
+    height:37.1rem ;
 }
 .info{
     margin-top: 2rem;
 }
 #name {
-    padding-left: 13.27px;
+    padding-left: 1.327rem;
     font-weight: 600;
-    font-size: 1.6em;
-    line-height: 19.99px;
+    font-size: var(--font-small);
+    line-height: 2rem;
     color: var(--purple);
 }
 
 #role {
-    padding-left: 13.27px;
+    padding-left: 1.327rem;
     color: var(--grey);
-    font-size: 0.929em;
-    line-height: 13.99px;
+    font-size: var(--font-smallest);
+    line-height: 1.4rem;
     font-weight: 600;
 }
 
 .figureCard h6 {
     text-align: left;
-    margin: 8.58px 13.27px 31.4px 13.27px;
+    margin: 0.85rem 1.327rem 3.14rem 1.327rem;
     color: #697694;
     font-size: var(--font-smallest);
     font-weight: 400;
-    line-height: 17.33px;
+    line-height: 1.74rem;
 }
 
 .team p {
-    font-size: 2.178em;
+    font-size: var(--font-big);
     font-family: var(--contentFont);
     font-weight: 600;
     color: var(--purple);
-    margin-top: 55.64px;
+    margin-top: 5.56rem;
 }
 .feedback {
     display: flex;
@@ -313,14 +310,14 @@ h2{
 
 .people {
     display: flex;
-    gap: 25px;
+    gap: 2.5rem;
     overflow-x: auto;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch; 
     scroll-snap-type: x mandatory;
     max-width: 80vw;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .people::-webkit-scrollbar {
@@ -340,38 +337,36 @@ h2{
 
 .feedback h6 {
     text-align: left;
-    font-size: 1.511em;
+    font-size: var(--font-smaller);
     font-weight: 400;
     margin-bottom: 0;
     margin-left: 0;
-    margin-top: 22.66px;
+    margin-top: 2.27rem;
 }
 
 .feedbackCard {
     flex: 0 0 auto;
-  margin-left: 10px;
-  margin-right: 10px;
+    margin:0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 380px;
-    width: 308px;
-    padding-top: 60px;
-    padding-left: 38.6px;
+    height: 38rem;
+    width: 30.8rem;
+    padding:6rem 0 0 3.86rem;
     box-shadow: 0px 1rem 1.5rem 0px #655A5A40;
-    background-color: #fff;
+    background-color:var(--bg-col);
 }
 
 .profile {
     display: flex;
     align-items: center;
     margin-left: 0;
-    gap: 15.4px;
-    margin-top: 30px;
+    gap: 1.54rem;
+    margin-top: 3rem;
 }
 
 .profile p {
-    font-size: 1.511em;
+    font-size:var(--font-smaller);
     font-weight: 600;
     color: var(--grey);
 }
@@ -384,17 +379,17 @@ h2{
 
 @media (max-width: 768px) {
     .people {
-        gap: 15px;
+        gap: 1.5rem;
     }
     .feedbackCard {
-        min-width: 270px;
+        min-width: 27rem;
     }
     .team .card-grp {
-        gap: 15px;
+        gap: 1.5rem;
     }
 
     .figureCard {
-        min-width: 270px;
+        min-width: 27rem;
     }
 }
 
@@ -404,7 +399,7 @@ h2{
     width: 100vw;
     margin-right: 20%;
     margin-top: 3.185em;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .contact{
     color: white;
@@ -414,30 +409,29 @@ h2{
     align-items: center;
     background-color: var(--pink);
     text-align: center;
-    padding-top: 95px;
+    padding-top: 9.5rem;
 }
 .contact h5{
-    font-size: 3.7rem;
+    font-size: var(--font-biggest);
     font-weight: 600;
     margin: 0;
-    margin-bottom: 31px;
+    margin-bottom: 3.1rem;
 }
 .contact input{
-    margin-top: 50px;
-    margin-bottom: 86px;
-    width: 267px;
-    height: 48px;
-    border: 1.89px solid var(--lightgrey);
-    border-radius: 3.77px;
+    margin-top: 5rem;
+    margin-bottom: 8.6rem;
+    width: 26.7rem;
+    height: 4.8rem;
+    border: 0.2rem solid var(--lightgrey);
+    border-radius: 0.4rem;
 }
 .contact input::placeholder{
     font-size: 1em;
-    padding: 10px 0 9px 16px
+    padding: 1rem 0 0.9rem 1.6rem;
 }
 .contact h6{
-    margin-top: 0;
-    margin-bottom: 0;
-    color: white;
+    margin:0 0 0 0;
+    color: var(--bg-col);
 }
 footer{
     display: flex;
@@ -447,7 +441,9 @@ footer{
     align-items: center;
     color: var(--purple);
     font-weight: var(--contentFont);
-    gap: 32px;
+    gap: 3.2rem;
+    width: 100%;
+    padding: 0 0 2rem 0;
 }
 
 footer p{
@@ -461,10 +457,9 @@ footer p{
 @media all and (min-width: 725px){
     .team .card-grp {
         box-sizing: border-box;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 0 4rem 0 4rem;
         display: flex;
-        gap: 25px;
+        gap: 2.5rem;
         overflow-x: auto;
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
@@ -484,9 +479,8 @@ footer p{
         width: 50%;
     }
     footer{
-        padding-top: 40px;
-        padding-bottom: 40px;
-        justify-content: space-around;
+        padding:4rem 0 4rem 0;
+        justify-content: space-between;
         align-items: center;
     }
     .logoNav {
@@ -498,8 +492,8 @@ footer p{
     }
 
     .logoNav #b {
-        width: 120px;
-        height: 120px;
+        width: 12rem;
+        height: 12rem;
     }
     .navlinks{
         width: 70%;
@@ -513,7 +507,7 @@ footer p{
     }
     .navlinks a{
         text-decoration: none;
-        font-size: 2em;
+        font-size: 2rem;
         font-weight: 400;
         color: var(--purple);
     }
@@ -529,20 +523,20 @@ footer p{
         display: flex;
         justify-content: space-between;
         z-index: 2;
-        margin-top: -30px;
+        margin-top: -3rem;
     }
     .hr{
         display: flex;
        
-        top: 460px;
+        top: 46rem;
         width: 95%;
-        height: 0px;
-        border: 1px solid var(--purple);
+        height: 0;
+        border: 0.1rem solid var(--purple);
     }
     .tickmarks{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 87px;
+        margin-bottom: 8.7rem;
     }
     .tickmark-item{
         display: flex;
@@ -553,30 +547,30 @@ footer p{
         font-weight: 400;
         font-family: var(--contentFont);
         color: var(--grey);
-        margin-top: 10px;
+        margin-top: 1rem;
         gap: calc(20%);
     }
    
     .figureCard{
-        width: 347px;
-        height: 468px;
+        width: 34.7rem;
+        height: 46.8rem;
     }
     .team heading{
-        padding-left: -140px !important;
+        padding-left: -14rem !important;
     }
     .team{
         overflow-x: hidden;
     }
     .team .wrapper{
-        padding-left: 140px;
+        padding-left: 14rem;
     }
     
     .team .card-grp .figureCard img{
-        width:347px ;
+        width:34.7rem;
         height: 50%;
     }
     .info{
-        margin-top: 28px;
+        margin-top: 2.8rem;
     }
     #role{
         font-size: 1.4em;
@@ -584,22 +578,22 @@ footer p{
     .info h6{
         font-size: 1.6em;
         font-weight: 400;
-        line-height: 26.1px;
+        line-height: 2.61rem;
     }
    
     h3, .what-do-we-do h3 {
         font-size: 4.8em;
-        padding-bottom: 20px;
+        padding-bottom: 2rem;
     }
     
     .card{
-        width: 373px;
+        width: 37.3rem;
     }
 }
 
 @media all and (max-width : 530px){
     .stat{
-        padding: 0 10px;
+        padding: 0 1rem;
     }
 }
 
@@ -609,7 +603,6 @@ footer p{
     }
     .what-do-we-do .card-grp{
         padding-left: 50%;
-        padding-right: 5000px;
     }
 }
 
@@ -622,11 +615,13 @@ footer p{
         margin-right: 20%;
     }
     .what-do-we-do .card{
-        width: calc(30% - 25px); 
+        width: calc(30% - 2.5rem); 
     }
      #i{
         display: block ;
     }
-    
+    footer{
+        padding:7.7rem 10% 9.5rem 10%;
+        align-items: center;
+    }
 }
-
